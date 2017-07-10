@@ -1,4 +1,6 @@
-import java.util.Random;
+import java.util.*;
+import java.junit.*;
+import static org.junit.Assert.assertEquals;
 
 public class ImportExample {
 public static void main (String[] args) {
@@ -8,6 +10,17 @@ public static void main (String[] args) {
         System.out.println(randomNumberGenerated);
 
 
+}
+
+public class TestJUnit {
+
+
+@Test
+public void testAdd() {
+  String string = "Junit works.";
+  assertEquals("Junit works.", string);
+}
+}
 }
 
 
