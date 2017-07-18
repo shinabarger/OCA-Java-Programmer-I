@@ -1,0 +1,12 @@
+*.class
+
+#log
+*.log
+
+#package files
+*.war
+*.jar
+*.ear
+*.zip
+*.tar.gz
+*.rar
