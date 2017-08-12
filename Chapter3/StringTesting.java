@@ -35,6 +35,12 @@ public static void main(String[] args) {
         //note that this just prints out the index not the string... so if it's valid it will print out a numeric value. If not, it will print out a -1
         System.out.println(testingThisString.indexOf('a', 10));
 
+        //basic starts with endswith example
+        System.out.println(testingThisString.endsWith("!"));
+        System.out.println(testingThisString.endsWith("yep"));
+
+        
+
 
 }
 }
