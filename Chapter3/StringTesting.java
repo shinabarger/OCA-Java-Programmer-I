@@ -1,4 +1,7 @@
-public class Main{
+import java.lang.*;
+import java.io.*;
+
+public class StringTesting{
 public static void main(String[] args) {
 
         System.out.println("Hello, Wisconsin");
@@ -17,6 +20,13 @@ public static void main(String[] args) {
         //this should throw an exception -- specifically a StringIndexOutOfBoundException
         //just gonna comment it out so we can keep compiling it, but hold it here as an example
         //System.out.println(testingThisString.charAt(500));
+
+        //substring generic
+        //again starts at 0 and prints out everything starting at 3 and after.
+        System.out.println(testingThisString.substring(3));
+
+        //this prints out the first instance of a specific letter and everything afterwards
+        System.out.println(testingThisString.substring(testingThisString.indexOf('p')));
 
 
 
