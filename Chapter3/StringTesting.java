@@ -31,6 +31,10 @@ public static void main(String[] args) {
         //print out a section between two different characters
         System.out.println(testingThisString.substring(5, 10));
 
+        //sample indexOf
+        //note that this just prints out the index not the string... so if it's valid it will print out a numeric value. If not, it will print out a -1
+        System.out.println(testingThisString.indexOf('a', 10));
+
 
 }
 }
