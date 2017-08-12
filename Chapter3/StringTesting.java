@@ -39,7 +39,7 @@ public static void main(String[] args) {
         System.out.println(testingThisString.endsWith("!"));
         System.out.println(testingThisString.endsWith("yep"));
 
-        
+        //arrays are next...
 
 
 }
