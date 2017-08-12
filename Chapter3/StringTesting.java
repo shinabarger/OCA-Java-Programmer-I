@@ -25,10 +25,11 @@ public static void main(String[] args) {
         //again starts at 0 and prints out everything starting at 3 and after.
         System.out.println(testingThisString.substring(3));
 
-        //this prints out the first instance of a specific letter and everything afterwards
+        //this prints out the first instance of a specific letter and everything afterwards in that specific string. Nice!
         System.out.println(testingThisString.substring(testingThisString.indexOf('p')));
 
-
+        //print out a section between two different characters
+        System.out.println(testingThisString.substring(5, 10));
 
 
 }
